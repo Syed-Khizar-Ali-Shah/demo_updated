@@ -12,7 +12,7 @@ const emailRoutes = require("./routes/email")
 
 app.use(cors(
     {
-        origin: ["https://spectrum-updated.vercel.app"],
+        origin: ["https://demo-frontend-six.vercel.app"],
         methods: ["POST", "GET", "PUT", "DELETE"],
         credentials: true
     }
