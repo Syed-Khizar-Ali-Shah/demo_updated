@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* In your CSS file or Tailwind configuration */
+
+
+/* Add your custom styling here */
+/* // useEffect(() => {
+    //   // Fetch instructor details using the API endpoint
+    //   axios.get('http://127.0.0.1:5000/user/getInstructorDetailsByld/64ae582c5ae85525e4dc4372')
+    //     .then(response => {
+    //       setnewTutor(response.data.instructor);
+    //     })
+    //     .catch(error => {
+    //       console.error('Error fetching instructor details:', error);
+    //     });
+    // }, []);
+  
+    // const handleSave = () => {
+    //   // Update instructor details using the same API endpoint
+    //   axios.put('http://127.0.0.1:5000/user/updateInstructorProfile/64ae582c5ae85525e4dc4372', newTutor)
+    //     .then(response => {
+    //       console.log('Updated instructor details:', response.data);
+    //     })
+    //     .catch(error => {
+    //       console.error('Error updating instructor details:', error);
+    //     });
+    // }; */
+            /* <div className="w-2/3 mt-4">
+              <label className="block mb-2 font-semibold">Last Name:</label>
+              <input
+                type="text"
+                name="lastName"
+                value={newTutor.lastName}
+                onChange={handleInputChange}
+                className="w-full p-2 border rounded"
+              />
+            </div> */
+  
+            /* <div className="w-2/3 mt-4">
+              <label className="block mb-2 font-semibold">Email:</label>
+              <input
+                type="text"
+                name="email"
+                value={newTutor.email}
+                onChange={handleInputChange}
+                className="w-full p-2 border rounded"
+              />
+            </div>
+             */
+          
+              /* <label className="block mb-2 font-semibold">Phone Number:</label>
+              <input
+                type="text"
+                name="phoneNumber"
+                value={newTutor.phoneNumber}
+                onChange={handleInputChange}
+                className="w-full p-2 border rounded"
+              /> */
+  
+                    /* <label className="block mb-2 font-semibold">Password:</label>
+              <input
+                type="text"
+                name="password"
+                value={newTutor.password}
+                onChange={handleInputChange}
+                className="w-full p-2 border rounded"
+              /> */
+  /* 
+  <label className="block mb-2 font-semibold">ID:</label>
+              <input
+                type="text"
+                name="_id"
+                value={newTutor._id}
+                onChange={handleInputChange}
+                className="w-full p-2 border rounded"
+              /> */
+                  /* <label className="block mb-2 font-semibold">Courses:</label>
+              <input
+                type="text"
+                name="courses"
+                value={newTutor.courses}
+                onChange={handleInputChange}
+                className="w-full p-2 border rounded"
+              /> */
+  
+      /* <label className="block mb-2 font-semibold">Experience:</label>
+              <input
+                type="text"
+                name="experience"
+                value={newTutor.experience}
+                onChange={handleInputChange}
+                className="w-full p-2 border rounded"
+              /> */
+  
