@@ -12,11 +12,18 @@ const emailRoutes = require("./routes/email")
 
 app.use(cors(
     {
-        origin: ["https://demo-frontend-six.vercel.app/"],
+        origin: ["https://demo-frontend-six.vercel.app"],
         methods: ["POST", "GET", "PUT", "DELETE"],
         credentials: true
     }
 ));
+
+app.use((req, res, next) => {
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+    res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+    next();
+  });
 
 app.use(express.json());
 
