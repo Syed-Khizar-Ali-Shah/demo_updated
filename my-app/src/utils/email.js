@@ -1,2 +1,2 @@
-export const url = 'https://demo-backend-alpha.vercel.app'
+export const url = 'https://demo-updated-api.vercel.app'
 
